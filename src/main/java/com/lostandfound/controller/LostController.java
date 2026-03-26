@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.lostandfound.entity.LostEntity;
 import com.lostandfound.service.LostService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/lost")
 public class LostController {

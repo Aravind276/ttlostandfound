@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.lostandfound.entity.FoundEntity;
 import com.lostandfound.service.FoundService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/found")
 public class FoundController {
